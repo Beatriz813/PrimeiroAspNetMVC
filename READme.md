@@ -14,6 +14,6 @@ app.UseEndpoints(endpoints =>
             });
 ```
 
-esse metodo temos que ao construir um controller com o nome HelloWorldController.cs, por exemplo, para acessar ele e as suas actions (métodos) precisamos acessar /HelloWorld/NomeDoMetodo.
+com esse metodo definido se construir um controller com o nome HelloWorldController.cs, por exemplo, para acessar a ele e as suas actions (métodos) precisamos acessar /HelloWorld/NomeDoMetodo.
 
 - É possivel fazer passagem de dados do controller para as views através do objeto ViewData. Ele é um objeto dinâmico, então é possível criar qualquer atibuto dentro dele da seguinte form: ```ViewData["NomeDaPropriedade"]```. Para acessar o ViewData de dentro da View basta acessar com ```@ViewData["NomeDaPropriedade"]```.
